@@ -1,23 +1,37 @@
 @charset "UTF-8";
 
-nav ul｛
- margin: 0px padding: 0px
-  nav ul li｛  list-stayle-type: none; 
- /*センター揃え ・左寄り？不必要/* 
- text-align: center;   float: left; 
- ｝
-  nav a｛   
- display: block; 
- /*仮設定 各項目の幅、背景色、文字色、文字サイズ、高さ/* 
- width: 250px; 
-  backgrand-color:rgba(30,150,150,0.3);   
- color: #fff; 
-  flont-size: 16px; 
-  line-height: 3e; 
- ｝  
+#wrapper{
+ width: 1000px;
+ margin:20px auto; 
+ background-color: aqua;
+} 
 
- nav a:hover｛  
- /*マウスが重なったときだけ/*
- backgrand-color:rgba(30,170,170,0.5); 
-  color: rgba(0,0,0,1) ;
-  ｝ 
+body{
+ background-color: white;
+} 
+
+nav ul{
+ margin: 0px;
+ padding: 0px;
+}
+
+nav ul li{
+list-style-type: none;
+text-align: center; 
+float: right;
+} 
+
+nav a{
+display: block;
+ font-size: 16px;
+ line-height: 3em;
+ width: 250px;
+ background-color: lime;
+ color: purple;
+}
+
+nav a:hover{
+background-color: blue;
+ color: black;
+}
+ 
