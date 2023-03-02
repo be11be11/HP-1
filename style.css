@@ -67,7 +67,7 @@
   width: 20%; 
   height: 450px; 
   border:1px solid #93B4C4; 
-  background-image: url("jpg ヘアカタログ 3.jpg"); 
+  background-image: url("jpg ヘアカタログ 3.JPG"); 
   background-repeat: no-repeat;
   background-size: contain;
   display: flex;
@@ -79,7 +79,7 @@
   width: 20%; 
   height: 450px; 
   border:1px solid #93B4C4; 
-  background-image: url("jpg ヘアカタログ 1.jpg"); 
+  background-image: url("jpg ヘアカタログ 1.JPG"); 
   background-repeat: no-repeat;
   background-size: contain;
   display: flex;
@@ -89,29 +89,38 @@
   }
  
    .a box {
-  margin: 2px;
+  margin: 10px;
   width: 30%; 
-  height: 600px; 
+  height: 500px; 
   border:1px solid #93B4C4; 
-  background-image: url("jpg メニュー image 1.jpg"); 
+  background-image: url("jpg 店内 image 2.JPG"); 
   background-repeat: no-repeat;
   background-size: contain;
 }
 
   .b box {
-  margin: 2px;
+  margin: 10px;
   width: 30%; 
-  height: 600px; 
+  height: 500px; 
+  border:1px solid #93B4C4; 
+  background-image: url("jpg メニュー image 1.jpg"); 
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+  .c box {
+  margin: 10px;
+  width: 30%; 
+  height: 500px; 
   border:1px solid #93B4C4; 
   background-image: url("jpg emiko image 1.JPG"); 
   background-repeat: no-repeat;
   background-size: contain;
 }
 
-  .c box {
-  margin: 2px;
+  .d box {
+  margin: 10px;
   width: 30%; 
-  height: 600px; 
+  height: 500px; 
   border:1px solid #93B4C4; 
   background-image: url("jpg 店内 image 3.JPG"); 
   background-repeat: no-repeat;
