@@ -2,30 +2,31 @@
 
 @media screen and (min-width:10px) and (max-width:900px){
    .box {
-  margin: 5px;
+  margin: 2px;
   width: 100%; 
   height: 600px; 
   border:1px solid #93B4C4; 
-  background-color: rgba(250,150,100,0.5); 
+  background-color: rgba(200,250,200,0.5); 
 }
   
    .minibox {
-  margin: 5px;
+  margin: 0px;
   width: 100%; 
   height: 600px; 
   border:1px solid #93B4C4; 
-  background-image: url("jpg その他 image 1.JPEG");
+  background-image: url("jpg 店内 image 1.JPG");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
+  background-position: center; 
 }
   
-    .fixed {
+    .bar {
    position: fixed; /* 固定配置 */
    top: 10px;  /* 基点（ウィンドウ）からの距離 */
    right: 20px;  /* 基点（ウィンドウ）からの距離 */
    width: 20%;
    border:1px solid #D49999; 
-   background-color:rgba(10,50,150,0.2);
+   background-color:rgba(0,250,200,0.2);
 }
   
    p {
@@ -37,10 +38,85 @@
   line-height: 20px;
 }
   
-  
+   .1 box {
+  margin: 2px;
+  width: 20%; 
+  height: 450px; 
+  border:1px solid #93B4C4; 
+  background-image: url("jpg ヘアカタログ 4.jpg"); 
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  align-items: top;
+  justify-content: left;
+}
+   .2 box {
+  margin: 2px;
+  width: 20%; 
+  height: 450px; 
+  border:1px solid #93B4C4; 
+  background-image: url("jpg ヘアカタログ 2.jpg"); 
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  align-items: bottom;
+  justify-content: left;
+}
+   .3 box {
+  margin: 2px;
+  width: 20%; 
+  height: 450px; 
+  border:1px solid #93B4C4; 
+  background-image: url("jpg ヘアカタログ 3.jpg"); 
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  align-items: top;
+  justify-content: right;
+}
+   .4 box {
+  margin: 2px;
+  width: 20%; 
+  height: 450px; 
+  border:1px solid #93B4C4; 
+  background-image: url("jpg ヘアカタログ 1.jpg"); 
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  align-items: bottom;
+  justify-content: right;
+}
   }
  
+   .a box {
+  margin: 2px;
+  width: 30%; 
+  height: 600px; 
+  border:1px solid #93B4C4; 
+  background-image: url("jpg メニュー image 1.jpg"); 
+  background-repeat: no-repeat;
+  background-size: contain;
+}
 
+  .b box {
+  margin: 2px;
+  width: 30%; 
+  height: 600px; 
+  border:1px solid #93B4C4; 
+  background-image: url("jpg emiko image 1.JPG"); 
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+  .c box {
+  margin: 2px;
+  width: 30%; 
+  height: 600px; 
+  border:1px solid #93B4C4; 
+  background-image: url("jpg 店内 image 3.JPG"); 
+  background-repeat: no-repeat;
+  background-size: contain;
+}
 
  @media screen and (min-width:1000px) and (max-width:2000px){
    .box {
