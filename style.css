@@ -2,9 +2,9 @@
 
 @media screen and (min-width:10px) and (max-width:900px){
    .box {
-  margin: 1px;
+  margin: 0px;
   width: 100%; 
-  height: 600px; 
+  height: 750px; 
   border:1px solid #93B4C4; 
   background-color: rgba(250,250,250,0.2); 
 }
@@ -12,7 +12,7 @@
    .minibox {
   margin: 0px;
   width: 100%; 
-  height: 600px; 
+  height: 730px; 
   border:1px solid #95B5C5; 
   background-image: url("jpg 店内 image 1.JPG");
   background-repeat: no-repeat;
@@ -39,17 +39,17 @@
 }
   
    .wrapper {
-  padding: 5px;
+  padding: 2px;
   width: 100%; 
-  height: 600px; 
+  height: 730px; 
   border:1px solid #90B0C0; 
   background-color: rgba(250,250,250,0.2); 
   display: flex;
 }
 
    .onebox {
-  margin: 10px;
-  width: 30%; 
+  margin: 5px;
+  width: 35%; 
   height: 300px; 
   border:1px solid #80B5C5; 
   background-image: url("jpg ヘアカタログ 4.jpg"); 
@@ -60,8 +60,8 @@
   justify-content: left;
 }
    .Twobox {
-  margin: 10px;
-  width: 30%; 
+  margin: 5px;
+  width: 35%; 
   height: 300px; 
   border:1px solid #70B7C7; 
   background-image: url("jpg ヘアカタログ 2.jpg"); 
@@ -72,8 +72,8 @@
   justify-content: left;
 }
    .Threebox {
-  margin: 10px;
-  width: 30%; 
+  margin: 5px;
+  width: 35%; 
   height: 300px; 
   border:1px solid #60B6C6; 
   background-image: url("jpg ヘアカタログ 3.JPG"); 
@@ -84,8 +84,8 @@
   justify-content: right;
 }
    .Fourbox {
-  margin: 10px;
-  width: 30%; 
+  margin: 5px;
+  width: 35%; 
   height: 300px; 
   border:1px solid #50B5C5; 
   background-image: url("jpg ヘアカタログ 1.JPG"); 
