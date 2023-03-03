@@ -59,7 +59,7 @@
   align-items: top;
   justify-content: left;
 }
-   .2box {
+   .Twobox {
   margin: 15px;
   width: 20%; 
   height: 450px; 
@@ -68,7 +68,7 @@
   background-repeat: no-repeat;
   background-size: contain;
   display: flex;
-  align-items: bottom;
+  align-items: top;
   justify-content: left;
 }
    .Threebox {
