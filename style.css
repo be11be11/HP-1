@@ -46,9 +46,29 @@
   background-color: rgba(250,250,250,0.2); 
   display: flex;
   justify-content: space-between;
+ }
 
+    .wrapper a {
+  padding: 0px;
+  width: 100%; 
+  height: 730px; 
+  border:1px solid #90B0C0; 
+  background-color: rgba(250,250,250,0.2); 
+  display: flex;
+  justify-content: space-between;
+      align-items: flex-start; 
 }
-
+    .wrapper b {
+  padding: 0px;
+  width: 100%; 
+  height: 730px; 
+  border:1px solid #90B0C0; 
+  background-color: rgba(250,250,250,0.2); 
+  display: flex;
+  justify-content: space-between;
+        align-items: flex-end;
+}
+   
    .onebox {
   margin: 5px;
   width: 35%; 
@@ -138,7 +158,7 @@
    .box {
   margin: 2px;
   width: 100%; 
-  height: 600px; 
+  height: 850px; 
   border:1px solid #93B4C4; 
   background-color: rgba(250,250,250,0.2); 
 }
@@ -146,7 +166,7 @@
    .minibox {
   margin: 0px;
   width: 100%; 
-  height: 600px; 
+  height: 850px; 
   border:1px solid #95B5C5; 
   background-image: url("jpg 店内 image 1.JPG");
   background-repeat: no-repeat;
@@ -175,12 +195,33 @@
    .wrapper {
   padding: 5px;
   width: 100%; 
-  height: 600px; 
+  height: 850px; 
   border:1px solid #90B0C0; 
   background-color: rgba(250,250,250,0.2); 
   display: flex;
 }
 
+      .wrapper a {
+  padding: 0px;
+  width: 100%; 
+  height: 730px; 
+  border:1px solid #90B0C0; 
+  background-color: rgba(250,250,250,0.2); 
+  display: flex;
+  justify-content: space-between;
+      align-items: flex-start; 
+}
+    .wrapper b {
+  padding: 0px;
+  width: 100%; 
+  height: 730px; 
+  border:1px solid #90B0C0; 
+  background-color: rgba(250,250,250,0.2); 
+  display: flex;
+  justify-content: space-between;
+        align-items: flex-end;
+}
+    
    .onebox {
   margin: 5px;
   width: 35%; 
@@ -270,7 +311,7 @@
    .box {
   margin: 5px;
   width: 100%; 
-  height: 750px; 
+  height: 850px; 
   border:1px solid #93B4C4; 
   background-color: rgba(250,250,250,0.2); 
 }   
@@ -278,7 +319,7 @@
    .minibox {
   margin: 5px;
   width: 100%; 
-  height: 750px; 
+  height: 850px; 
   border:1px solid #95B5C5; 
   background-image: url("jpg 店内 image 1.JPG");
   background-repeat: no-repeat;
@@ -308,12 +349,32 @@
    .wrapper {
   padding: 5px;
   width: 100%; 
-  height: 600px; 
+  height: 850px; 
   border:1px solid #90B0C0; 
   background-color: rgba(250,250,250,0.2); 
   display: flex;
 }
-
+  .wrapper a {
+  padding: 0px;
+  width: 100%; 
+  height: 730px; 
+  border:1px solid #90B0C0; 
+  background-color: rgba(250,250,250,0.2); 
+  display: flex;
+  justify-content: space-between;
+      align-items: flex-start; 
+}
+    .wrapper b {
+  padding: 0px;
+  width: 100%; 
+  height: 730px; 
+  border:1px solid #90B0C0; 
+  background-color: rgba(250,250,250,0.2); 
+  display: flex;
+  justify-content: space-between;
+        align-items: flex-end;
+}
+    
    .onebox {
   margin: 5px;
   width: 35%; 
