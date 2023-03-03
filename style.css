@@ -182,52 +182,48 @@
 }
 
    .onebox {
-  margin: 15px;
-  width: 20%; 
-  height: 450px; 
-  border:1px solid #93B4C4; 
+  margin: 5px;
+  width: 35%; 
+  height: 300px; 
+  border:1px solid #80B5C5; 
   background-image: url("jpg ヘアカタログ 4.jpg"); 
   background-repeat: no-repeat;
   background-size: contain;
   display: flex;
-  align-items: top;
-  justify-content: left;
+  align-items: flex-start
 }
    .Twobox {
-  margin: 15px;
-  width: 20%; 
-  height: 450px; 
+  margin: 5px;
+  width: 35%; 
+  height: 300px; 
   border:1px solid #70B7C7; 
   background-image: url("jpg ヘアカタログ 2.jpg"); 
   background-repeat: no-repeat;
   background-size: contain;
   display: flex;
-  align-items: bottom;
-  justify-content: left;
+  align-items: flex-end
 }
    .Threebox {
-  margin: 15px;
-  width: 20%; 
-  height: 450px; 
-  border:1px solid #93B4C4; 
+  margin: 5px;
+  width: 35%; 
+  height: 300px; 
+  border:1px solid #60B6C6; 
   background-image: url("jpg ヘアカタログ 3.JPG"); 
   background-repeat: no-repeat;
   background-size: contain;
   display: flex;
-  align-items: top;
-  justify-content: right;
+  align-items: flex-start
 }
    .Fourbox {
-  margin: 15px;
-  width: 20%; 
-  height: 450px; 
-  border:1px solid #93B4C4; 
+  margin: 5px;
+  width: 35%; 
+  height: 300px; 
+  border:1px solid #50B5C5; 
   background-image: url("jpg ヘアカタログ 1.JPG"); 
   background-repeat: no-repeat;
   background-size: contain;
   display: flex;
-  align-items: bottom;
-  justify-content: right;
+  align-items: flex-end
 }
    .abox {
   margin: 10px;
