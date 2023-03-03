@@ -58,7 +58,7 @@
   background-repeat: no-repeat;
   background-size: contain;
   display: flex;
-  align-items: flex-start
+  align-items: flex-start;
 }
    .Twobox {
   margin: 5px;
@@ -69,7 +69,7 @@
   background-repeat: no-repeat;
   background-size: contain;
   display: flex;
-  align-items: flex-end
+  align-items: flex-end;
 }
    .Threebox {
   margin: 5px;
@@ -80,7 +80,7 @@
   background-repeat: no-repeat;
   background-size: contain;
   display: flex;
-  align-items: flex-start
+  align-items: flex-start;
 }
    .Fourbox {
   margin: 5px;
@@ -91,7 +91,7 @@
   background-repeat: no-repeat;
   background-size: contain;
   display: flex;
-  align-items: flex-end
+  align-items: flex-end;
 }
    .abox {
   margin: 10px;
@@ -147,7 +147,7 @@
   margin: 0px;
   width: 100%; 
   height: 600px; 
-  border:1px solid #93B4C4; 
+  border:1px solid #95B5C5; 
   background-image: url("jpg 店内 image 1.JPG");
   background-repeat: no-repeat;
   background-size: contain;
@@ -190,7 +190,7 @@
   background-repeat: no-repeat;
   background-size: contain;
   display: flex;
-  align-items: flex-start
+  align-items: flex-start;
 }
    .Twobox {
   margin: 5px;
@@ -201,7 +201,7 @@
   background-repeat: no-repeat;
   background-size: contain;
   display: flex;
-  align-items: flex-end
+  align-items: flex-end;
 }
    .Threebox {
   margin: 5px;
@@ -212,7 +212,7 @@
   background-repeat: no-repeat;
   background-size: contain;
   display: flex;
-  align-items: flex-start
+  align-items: flex-start;
 }
    .Fourbox {
   margin: 5px;
@@ -223,7 +223,7 @@
   background-repeat: no-repeat;
   background-size: contain;
   display: flex;
-  align-items: flex-end
+  align-items: flex-end;
 }
    .abox {
   margin: 10px;
@@ -272,37 +272,129 @@
   width: 100%; 
   height: 750px; 
   border:1px solid #93B4C4; 
-  background-color: rgba(150,50,10,0.5);
+  background-color: rgba(250,250,250,0.2); 
 }   
    
    .minibox {
   margin: 5px;
   width: 100%; 
   height: 750px; 
-  border:1px solid #93B4C4; 
-  background-image: url("jpg その他 image 1.JPEG");
+  border:1px solid #95B5C5; 
+  background-image: url("jpg 店内 image 1.JPG");
   background-repeat: no-repeat;
-  background-size:contain;
-  background-position: center;  
+  background-size: contain;
+  background-position: center; 
 }
    
-    .fixed {
+   
+    .bar {
    position: fixed; /* 固定配置 */
    top: 10px;  /* 基点（ウィンドウ）からの距離 */
    right: 20px;  /* 基点（ウィンドウ）からの距離 */
    width: 20%;
    border:1px solid #D49999; 
-   background-color:rgba(10,100,200,0.2);
+   background-color:rgba(0,250,200,0.2);
 }
-   
+  
    p {
   text-align:center; 
   line-height: 60px;
 }
-   
-.fixed p {
+  
+   .fixed p {
   line-height: 20px;
 }
-   
-   
+  
+   .wrapper {
+  padding: 5px;
+  width: 100%; 
+  height: 600px; 
+  border:1px solid #90B0C0; 
+  background-color: rgba(250,250,250,0.2); 
+  display: flex;
 }
+
+   .onebox {
+  margin: 5px;
+  width: 35%; 
+  height: 300px; 
+  border:1px solid #80B5C5; 
+  background-image: url("jpg ヘアカタログ 4.jpg"); 
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  align-items: flex-start;
+}
+   .Twobox {
+  margin: 5px;
+  width: 35%; 
+  height: 300px; 
+  border:1px solid #70B7C7; 
+  background-image: url("jpg ヘアカタログ 2.jpg"); 
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  align-items: flex-end;
+}
+   .Threebox {
+  margin: 5px;
+  width: 35%; 
+  height: 300px; 
+  border:1px solid #60B6C6; 
+  background-image: url("jpg ヘアカタログ 3.JPG"); 
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  align-items: flex-start;
+}
+   .Fourbox {
+  margin: 5px;
+  width: 35%; 
+  height: 300px; 
+  border:1px solid #50B5C5; 
+  background-image: url("jpg ヘアカタログ 1.JPG"); 
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  align-items: flex-end;
+}
+   .abox {
+  margin: 10px;
+  width: 30%; 
+  height: 500px; 
+  border:1px solid #93B4C4; 
+  background-image: url("jpg 店内 image 2.JPG"); 
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+  .bbox {
+  margin: 10px;
+  width: 30%; 
+  height: 500px; 
+  border:1px solid #93B4C4; 
+  background-image: url("jpg メニュー image 1.jpg"); 
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+  .cbox {
+  margin: 10px;
+  width: 30%; 
+  height: 500px; 
+  border:1px solid #93B4C4; 
+  background-image: url("jpg emiko image 1.JPG"); 
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+  .dbox {
+  margin: 10px;
+  width: 30%; 
+  height: 500px; 
+  border:1px solid #93B4C4; 
+  background-image: url("jpg 店内 image 3.JPG"); 
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+}     
