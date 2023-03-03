@@ -47,8 +47,7 @@
   display: flex;
   justify-content: space-between;
 
-}
-
+      
    .onebox {
   margin: 5px;
   width: 35%; 
@@ -93,6 +92,8 @@
   display: flex;
   align-items: flex-end;
 }
+    }
+   
    .abox {
   margin: 10px;
   width: 30%; 
@@ -179,9 +180,9 @@
   border:1px solid #90B0C0; 
   background-color: rgba(250,250,250,0.2); 
   display: flex;
-}
 
-   .onebox {
+
+      .onebox {
   margin: 5px;
   width: 35%; 
   height: 300px; 
@@ -225,6 +226,8 @@
   display: flex;
   align-items: flex-end;
 }
+      }
+    
    .abox {
   margin: 10px;
   width: 30%; 
@@ -312,7 +315,7 @@
   border:1px solid #90B0C0; 
   background-color: rgba(250,250,250,0.2); 
   display: flex;
-}
+
 
    .onebox {
   margin: 5px;
@@ -358,6 +361,8 @@
   display: flex;
   align-items: flex-end;
 }
+      }
+      
    .abox {
   margin: 10px;
   width: 30%; 
