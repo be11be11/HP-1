@@ -44,10 +44,11 @@
   width: 65%; 
   height: 360px; 
   border:1px solid #80B5C5; 
-  background-image: url("jpg ヘアカタログ 4.jpg"); 
+  background-image: url("jpg ヘアカタログ 4.jpg"), url("jpg ヘアカタログ 3.JPG"); 
   background-repeat: no-repeat;
   background-size: contain;
   display: flex;
+  justify-content: space-around;
   align-items: flex-start;
 }
 
@@ -56,10 +57,11 @@
   width: 65%; 
   height: 360px; 
   border:1px solid #50B5C5; 
-  background-image: url("jpg ヘアカタログ 1.JPG"); 
+  background-image: url("jpg ヘアカタログ 2.jpg"), url("jpg ヘアカタログ 1.JPG"); 
   background-repeat: no-repeat;
   background-size: contain;
   display: flex;
+  justify-content: space-around;
   align-items: flex-end;
 }
 
@@ -147,7 +149,7 @@
   width: 65%; 
   height: 450px; 
   border:1px solid #80B5C5; 
-  background-image: url("jpg ヘアカタログ 4.jpg"); 
+  background-image: url("jpg ヘアカタログ 4.jpg"), url("jpg ヘアカタログ 3.JPG"); 
   background-repeat: no-repeat;
   background-size: contain;
   display: flex;
@@ -159,7 +161,7 @@
   width: 65%; 
   height: 450px; 
   border:1px solid #50B5C5; 
-  background-image: url("jpg ヘアカタログ 1.JPG"); 
+  background-image: url("jpg ヘアカタログ 2.jpg"), url("jpg ヘアカタログ 1.JPG"); 
   background-repeat: no-repeat;
   background-size: contain;
   display: flex;
