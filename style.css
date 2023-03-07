@@ -41,7 +41,7 @@
    .wrapper {
   margin: 0px;
   width: 100%; 
-  height: 360px; 
+  height: 740px; 
   border:1px solid #50B25C15; 
   display: flex;
 }
@@ -170,7 +170,7 @@
    .minibox {
   margin: 0px;
   width: 100%; 
-  height: 850px; 
+  height: 830px; 
   border:1px solid #90B45C25; 
   background-image: url("jpg 店内 image 1.JPG");
   background-repeat: no-repeat;
@@ -199,7 +199,7 @@
    .wrapper {
   margin: 2px;
   width: 100%; 
-  height: 460px; 
+  height: 840px; 
   border:1px solid #50B25C15; 
   display: flex;
 }
