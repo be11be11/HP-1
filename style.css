@@ -1,12 +1,11 @@
 @charset "UTF-8";
 
-@media screen and (min-width:10px) and (max-width:900px){
-   .box {
-  margin: 0px;
-  width: 105%; 
-  height: 750px; 
-  border:1px solid #90B45C25; 
-  background-color: rgba(250,250,250,0.2); 
+@media screen and (min-width:10px) and (max-width:500px){
+  .box {
+  border:1px solid #40B20C10; 
+  width: 100%;       /* 適当な幅を指定 */
+  height: 350px;       /* 適当な高さを指定 */
+  position: relative; /* 基準位置とする */
 }
   
    .minibox {
@@ -38,86 +37,35 @@
   line-height: 20px;
 }
 
-   .wrapper {
-  margin: 0px;
-  width: 100%; 
-  height: 740px; 
-  border:1px solid #50B25C15; 
-  display: flex;
-}
-
-.Ue flexbox {
-  margin: 0px;
-  width: 100%; 
-  height: 360px; 
-  border:1px solid #80B40C20; 
-  display: flex;
-  justify-content: flex-start;/*左寄せで配置*/
-}
-.ue flexbox {
-  margin: 0px;
-  width: 70%; 
-  height: 360px; 
-  border:1px solid #60B30C15; 
-  display: flex;
-  justify-content: space-around;
-}
-
-.Sita flexbox {
-  margin: 0px;
-  width: 100%; 
-  height: 360px; 
-  border:1px solid #40B20C10; 
-  display: flex;
-  justify-content: flex-end;/*右寄せで配置*/
-}
-
-.sita flexbox {
-  margin: 0px;
-  width: 70%; 
-  height: 360px; 
-  border:1px solid #20B10C5; 
-  display: flex;
-  justify-content: space-around;
-}
-
-  .Onebox {
-  margin: 1px;
-  width: ; 
-  height: 360px;
+/* 共通するCSS */
+.box img {
   border:1px solid #10B5C5; 
-  background-image: url("jpg ヘアカタログ 4.jpg"); 
-  background-repeat: no-repeat;
-  background-size: contain;
+  width: 25%;       /* 適当な幅を指定 */
+  position: absolute; /* 相対位置に指定 */
 }
- .Twobox {
-  margin: 1px;
-  width: ; 
-  height: 360px; 
-  border:1px solid #30B15C5; 
-  background-image: url("jpg ヘアカタログ 3.JPG"); 
-  background-repeat: no-repeat;
-  background-size: contain;
+
+.box .ヘア1 {
+  /* 左上に固定 */
+  top: 0;
+  left: 0;
 }
- .Threebox {
-  margin: 1px;
-  width: ; 
-  height: 360px; 
-  border:1px solid #20B45C90; 
-  background-image: url("jpg ヘアカタログ 2.jpg"); 
-  background-repeat: no-repeat;
-  background-size: contain;
+.box .ヘア2 {
+  /* 右下に固定 */
+  bottom: -5px;
+  left: 90px;
 }
- .Fourbox {
-  margin: 1px;
-  width: ; 
-  height: 360px; 
-  border:1px solid #15B35C70; 
-  background-image: url("jpg ヘアカタログ 1.JPG"); 
-  background-repeat: no-repeat;
-  background-size: contain;
+  .box .ヘア3 {
+  /* 右下に固定 */
+  top: 0;
+  right: 90px;
 }
-  .abox {
+ .box .ヘア4 {
+  /* 右下に固定 */
+  bottom: -5px;
+  right: 0;
+ }  
+   
+   .abox {
   margin: 5px;
   width: 30%; 
   height: 500px; 
@@ -158,15 +106,120 @@
 
 }
 
- @media screen and (min-width:900px) and (max-width:2000px){
-   .box {
-  margin: 0px;
-  width: 105%; 
-  height: 850px; 
-  border:1px solid #90B45C25; 
-  background-color: rgba(250,250,250,0.2); 
+@media screen and (min-width:501px) and (max-width:1400px){
+  .box {
+  border:1px solid #40B20C10; 
+  width: 100%;       /* 適当な幅を指定 */
+  height: 750px;       /* 適当な高さを指定 */
+  position: relative; /* 基準位置とする */
 }
   
+  .minibox {
+  margin: 0px;
+  width: 100%; 
+  height: 830px; 
+  border:1px solid #90B45C25; 
+  background-image: url("jpg 店内 image 1.JPG");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center; 
+}
+
+    .bar {
+   position: fixed; /* 固定配置 */
+   top: 10px;  /* 基点（ウィンドウ）からの距離 */
+   right: 20px;  /* 基点（ウィンドウ）からの距離 */
+   width: 20%;
+   border:1px solid #D49999; 
+   background-color:rgba(0,250,200,0.2);
+}
+  
+   p {
+  text-align:center; 
+  line-height: 60px;
+}
+  
+   .fixed p {
+  line-height: 20px;
+}
+
+ /* 共通するCSS */
+.box img {
+  border:1px solid #10B5C5; 
+  width: 25%;       /* 適当な幅を指定 */
+  position: absolute; /* 相対位置に指定 */
+}
+
+.box .ヘア1 {
+  /* 左上に固定 */
+  top: 0;
+  left: 0;
+}
+.box .ヘア2 {
+  /* 右下に固定 */
+  bottom: -5px;
+  left: 200px;
+}
+  .box .ヘア3 {
+  /* 右下に固定 */
+  top: 0;
+  right: 200px;
+}
+ .box .ヘア4 {
+  /* 右下に固定 */
+  bottom: -5px;
+  right: 0;
+} 
+
+ .abox {
+  margin: 5px;
+  width: 30%; 
+  height: 500px; 
+  border:1px solid #93B4C4; 
+  background-image: url("jpg 店内 image 2.JPG"); 
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+  .bbox {
+  margin: 5px;
+  width: 30%; 
+  height: 500px; 
+  border:1px solid #93B4C4; 
+  background-image: url("jpg メニュー image 1.jpg"); 
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+  .cbox {
+  margin: 5px;
+  width: 30%; 
+  height: 500px; 
+  border:1px solid #93B4C4; 
+  background-image: url("jpg emiko image 1.JPG"); 
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+  .dbox {
+  margin: 5px;
+  width: 30%; 
+  height: 500px; 
+  border:1px solid #93B4C4; 
+  background-image: url("jpg 店内 image 3.JPG"); 
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+}
+
+@media screen and (min-width:1400px) and (max-width:2000px){
+  .box {
+  border:1px solid #40B20C10; 
+  width: 100%;       /* 適当な幅を指定 */
+  height: 1000px;       /* 適当な高さを指定 */
+  position: relative; /* 基準位置とする */
+}
+   
    .minibox {
   margin: 0px;
   width: 100%; 
@@ -196,87 +249,35 @@
   line-height: 20px;
 }
 
-   .wrapper {
-  margin: 2px;
-  width: 100%; 
-  height: 840px; 
-  border:1px solid #50B25C15; 
-  display: flex;
-}
-
-.Ue flexbox {
-  margin: 0px;
-  width: 100%; 
-  height: 460px; 
-  border:1px solid #80B40C20; 
-  display: flex;
-  justify-content: flex-start;/*左寄せで配置*/
-}
-.ue flexbox {
-  margin: 0px;
-  width: 70%; 
-  height: 460px; 
-  border:1px solid #60B30C15; 
-  display: flex;
-  justify-content: space-around;
-}
-
-.Sita flexbox {
-  margin: 0px;
-  width: 100%; 
-  height: 460px; 
-  border:1px solid #40B20C10; 
-  display: flex;
-  justify-content: flex-end;/*右寄せで配置*/
-}
-
-.sita flexbox {
-  margin: 0px;
-  width: 80%; 
-  height: 460px; 
-  border:1px solid ##20B10C5; 
-  display: flex;
-  justify-content: space-around;
-}
-
-   .Onebox {
-  margin: 1px;
-  width: ; 
-  height: 460px;
+   /* 共通するCSS */
+.box img {
   border:1px solid #10B5C5; 
-  background-image: url("jpg ヘアカタログ 4.jpg"); 
-  background-repeat: no-repeat;
-  background-size: contain;
-}
- .Twobox {
-  margin: 1px;
-  width: ; 
-  height: 460px; 
-  border:1px solid #30B15C5; 
-  background-image: url("jpg ヘアカタログ 3.JPG"); 
-  background-repeat: no-repeat;
-  background-size: contain;
-}
- .Threebox {
-  margin: 1px;
-  width: ; 
-  height: 460px; 
-  border:1px solid #20B45C90; 
-  background-image: url("jpg ヘアカタログ 2.jpg"); 
-  background-repeat: no-repeat;
-  background-size: contain;
-}
- .Fourbox {
-  margin: 1px;
-  width: ; 
-  height: 460px; 
-  border:1px solid #15B35C70; 
-  background-image: url("jpg ヘアカタログ 1.JPG"); 
-  background-repeat: no-repeat;
-  background-size: contain;
+  width: 25%;       /* 適当な幅を指定 */
+  position: absolute; /* 相対位置に指定 */
 }
 
- .abox {
+.box .ヘア1 {
+  /* 左上に固定 */
+  top: 0;
+  left: 0;
+}
+.box .ヘア2 {
+  /* 右下に固定 */
+  bottom: -5px;
+  left: 350px;
+}
+  .box .ヘア3 {
+  /* 右下に固定 */
+  top: 0;
+  right: 350px;
+}
+ .box .ヘア4 {
+  /* 右下に固定 */
+  bottom: -5px;
+  right: 0;
+} 
+   
+  .abox {
   margin: 5px;
   width: 30%; 
   height: 500px; 
