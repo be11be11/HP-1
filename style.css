@@ -1,319 +1,92 @@
 @charset "UTF-8";
 
 @media screen and (min-width:10px) and (max-width:500px){
-  .box {
-  border:1px solid #40B20C10; 
-  width: 100%;       /* 適当な幅を指定 */
-  height: 350px;       /* 適当な高さを指定 */
-  position: relative; /* 基準位置とする */
-}
   
-   .minibox {
-  margin: 0px;
-  width: 100%; 
-  height: 730px; 
-  border:1px solid #70B35C15; 
-  background-image: url("jpg 店内 image 1.JPG");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center; 
+div.main1 {border:1px solid red; background-color: rgba(50, 50, 10, 0.1); }
+div.box2 {border:4px solid lime; height: 650px; background-color: rgba(200, 0, 50, 0.3); position: relative; }
+.box3 img{
+  border:2px solid blue;
+  position: absolute;
+  width: 90%;
+　margin: auto;
 }
-  
-    .bar {
-   position: fixed; /* 固定配置 */
-   top: 10px;  /* 基点（ウィンドウ）からの距離 */
-   right: 20px;  /* 基点（ウィンドウ）からの距離 */
-   width: 20%;
-   border:1px solid #D49999; 
-   background-color:rgba(0,250,200,0.2);
+
+.box3 .店内1 {
+ margin: auto;
 }
-  
-   p {
-  text-align:center; 
-  line-height: 60px;
+
+p.text4 {border:2px solid orange; width: 90%; background-color: rgba(250, 100, 50, 0.3); margin: auto; }
+.box5 img{
+  border:2px solid blue;
+  position: absolute;
+  width: 90%;
+　margin: auto;
 }
-  
-   .fixed p {
-  line-height: 20px;
+
+.box5 .店内2 {
+ margin: auto;
 }
 
 /* 共通するCSS */
-.box img {
-  border:1px solid #10B5C5; 
-  width: 25%;       /* 適当な幅を指定 */
-  position: absolute; /* 相対位置に指定 */
+.box6 img{
+  border:1px solid aqua; 
+  position: absolute; 
+  width: 35%;       /* 適当な幅を指定 */
 }
 
-.box .ヘア1 {
+.box6 .ヘア1 {
   /* 左上に固定 */
   top: 0;
   left: 0;
 }
-.box .ヘア2 {
+.box6 .ヘア2 {
   /* 右下に固定 */
   bottom: -5px;
   left: 90px;
 }
-  .box .ヘア3 {
+.box6 .ヘア3 {
   /* 右下に固定 */
   top: 0;
   right: 90px;
 }
- .box .ヘア4 {
+.box6 .ヘア4 {
   /* 右下に固定 */
   bottom: -5px;
   right: 0;
  }  
-   
-   .abox {
-  margin: 5px;
-  width: 30%; 
-  height: 500px; 
-  border:1px solid #40B4C4; 
-  background-image: url("jpg 店内 image 2.JPG"); 
-  background-repeat: no-repeat;
-  background-size: contain;
+
+.box7 img{
+  border:2px solid blue;
+  position: absolute;
+  width: 45%;
+　margin-right: auto;
 }
 
-  .bbox {
-  margin: 5px;
-  width: 30%; 
-  height: 500px; 
-  border:1px solid #30B3C3; 
-  background-image: url("jpg メニュー image 1.jpg"); 
-  background-repeat: no-repeat;
-  background-size: contain;
+.box7 .メニュー1 {
+ margin-right: auto;
 }
-  .cbox {
-  margin: 5px;
-  width: 30%; 
-  height: 500px; 
-  border:1px solid #20B2C2; 
-  background-image: url("jpg emiko image 1.JPG"); 
-  background-repeat: no-repeat;
-  background-size: contain;
+p.text8 {border:2px solid pink; width: 50%; background-color: rgba(250, 100, 50, 0.3); margin-left: auto; }
+.box9 img{
+  border:2px solid blue;
+  position: absolute;
+  width: 45%;
+  margin-right: auto;
 }
 
-  .dbox {
-  margin: 5px;
-  width: 30%; 
-  height: 500px; 
-  border:1px solid #10B10C10; 
-  background-image: url("jpg 店内 image 3.JPG"); 
-  background-repeat: no-repeat;
-  background-size: contain;
+.box9 .emiko1 {
+ margin-right: auto;
+}
+p.text10 {border:2px solid blue; width: 50%; background-color: rgba(0, 200, 100, 0.3); margin-left: auto; }
+.box11 img{
+  border:2px solid blue;
+  position: absolute;
+  width: 45%;
+　margin-right: auto;
 }
 
+.box11 .店内3 {
+ margin-right: auto;
 }
+p.text12 {border:2px solid pink; width: 50%; background-color: rgba(250, 100, 50, 0.3); margin-left: auto; }
 
-@media screen and (min-width:501px) and (max-width:1400px){
-  .box {
-  border:1px solid #40B20C10; 
-  width: 100%;       /* 適当な幅を指定 */
-  height: 750px;       /* 適当な高さを指定 */
-  position: relative; /* 基準位置とする */
-}
-  
-  .minibox {
-  margin: 0px;
-  width: 100%; 
-  height: 830px; 
-  border:1px solid #90B45C25; 
-  background-image: url("jpg 店内 image 1.JPG");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center; 
-}
-
-    .bar {
-   position: fixed; /* 固定配置 */
-   top: 10px;  /* 基点（ウィンドウ）からの距離 */
-   right: 20px;  /* 基点（ウィンドウ）からの距離 */
-   width: 20%;
-   border:1px solid #D49999; 
-   background-color:rgba(0,250,200,0.2);
-}
-  
-   p {
-  text-align:center; 
-  line-height: 60px;
-}
-  
-   .fixed p {
-  line-height: 20px;
-}
-
- /* 共通するCSS */
-.box img {
-  border:1px solid #10B5C5; 
-  width: 25%;       /* 適当な幅を指定 */
-  position: absolute; /* 相対位置に指定 */
-}
-
-.box .ヘア1 {
-  /* 左上に固定 */
-  top: 0;
-  left: 0;
-}
-.box .ヘア2 {
-  /* 右下に固定 */
-  bottom: -5px;
-  left: 200px;
-}
-  .box .ヘア3 {
-  /* 右下に固定 */
-  top: 0;
-  right: 200px;
-}
- .box .ヘア4 {
-  /* 右下に固定 */
-  bottom: -5px;
-  right: 0;
-} 
-
- .abox {
-  margin: 5px;
-  width: 30%; 
-  height: 500px; 
-  border:1px solid #93B4C4; 
-  background-image: url("jpg 店内 image 2.JPG"); 
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-
-  .bbox {
-  margin: 5px;
-  width: 30%; 
-  height: 500px; 
-  border:1px solid #93B4C4; 
-  background-image: url("jpg メニュー image 1.jpg"); 
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-  .cbox {
-  margin: 5px;
-  width: 30%; 
-  height: 500px; 
-  border:1px solid #93B4C4; 
-  background-image: url("jpg emiko image 1.JPG"); 
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-
-  .dbox {
-  margin: 5px;
-  width: 30%; 
-  height: 500px; 
-  border:1px solid #93B4C4; 
-  background-image: url("jpg 店内 image 3.JPG"); 
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-
-}
-
-@media screen and (min-width:1400px) and (max-width:2000px){
-  .box {
-  border:1px solid #40B20C10; 
-  width: 100%;       /* 適当な幅を指定 */
-  height: 1000px;       /* 適当な高さを指定 */
-  position: relative; /* 基準位置とする */
-}
-   
-   .minibox {
-  margin: 0px;
-  width: 100%; 
-  height: 830px; 
-  border:1px solid #90B45C25; 
-  background-image: url("jpg 店内 image 1.JPG");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center; 
-}
-
-    .bar {
-   position: fixed; /* 固定配置 */
-   top: 10px;  /* 基点（ウィンドウ）からの距離 */
-   right: 20px;  /* 基点（ウィンドウ）からの距離 */
-   width: 20%;
-   border:1px solid #D49999; 
-   background-color:rgba(0,250,200,0.2);
-}
-  
-   p {
-  text-align:center; 
-  line-height: 60px;
-}
-  
-   .fixed p {
-  line-height: 20px;
-}
-
-   /* 共通するCSS */
-.box img {
-  border:1px solid #10B5C5; 
-  width: 25%;       /* 適当な幅を指定 */
-  position: absolute; /* 相対位置に指定 */
-}
-
-.box .ヘア1 {
-  /* 左上に固定 */
-  top: 0;
-  left: 0;
-}
-.box .ヘア2 {
-  /* 右下に固定 */
-  bottom: -5px;
-  left: 350px;
-}
-  .box .ヘア3 {
-  /* 右下に固定 */
-  top: 0;
-  right: 350px;
-}
- .box .ヘア4 {
-  /* 右下に固定 */
-  bottom: -5px;
-  right: 0;
-} 
-   
-  .abox {
-  margin: 5px;
-  width: 30%; 
-  height: 500px; 
-  border:1px solid #93B4C4; 
-  background-image: url("jpg 店内 image 2.JPG"); 
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-
-  .bbox {
-  margin: 5px;
-  width: 30%; 
-  height: 500px; 
-  border:1px solid #93B4C4; 
-  background-image: url("jpg メニュー image 1.jpg"); 
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-  .cbox {
-  margin: 5px;
-  width: 30%; 
-  height: 500px; 
-  border:1px solid #93B4C4; 
-  background-image: url("jpg emiko image 1.JPG"); 
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-
-  .dbox {
-  margin: 5px;
-  width: 30%; 
-  height: 500px; 
-  border:1px solid #93B4C4; 
-  background-image: url("jpg 店内 image 3.JPG"); 
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-
-}
+}  
